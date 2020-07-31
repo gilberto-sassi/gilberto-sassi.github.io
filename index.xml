@@ -6,10 +6,19 @@
     <description>Recent content on Gilberto Pereira Sassi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 31 Jul 2020 14:39:55 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 17:05:38 -0300</lastBuildDate>
     
 	<atom:link href="https://gilberto-sassi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Semestre Letivo Suplementar</title>
+      <link>https://gilberto-sassi.github.io/disciplinas/semestre-letivo-suplementar/</link>
+      <pubDate>Fri, 31 Jul 2020 17:05:38 -0300</pubDate>
+      
+      <guid>https://gilberto-sassi.github.io/disciplinas/semestre-letivo-suplementar/</guid>
+      <description>Em definição: Mais informações em breve.</description>
+    </item>
     
     <item>
       <title>Power: Pacote no R para Cálculo do Poder e Tamanho da Amostra (en)</title>
