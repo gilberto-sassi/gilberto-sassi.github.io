@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pacotes R on Gilberto Pereira Sassi</title>
+    <link>https://gilberto-sassi.github.io/tags/pacotes-r/</link>
+    <description>Recent content in Pacotes R on Gilberto Pereira Sassi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 31 Jul 2020 14:39:55 -0300</lastBuildDate>
+    
+	<atom:link href="https://gilberto-sassi.github.io/tags/pacotes-r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Power: Pacote no R para Cálculo do Poder e Tamanho da Amostra (en)</title>
+      <link>https://gilberto-sassi.github.io/projetos/power/</link>
+      <pubDate>Fri, 31 Jul 2020 14:39:55 -0300</pubDate>
+      
+      <guid>https://gilberto-sassi.github.io/projetos/power/</guid>
+      <description>This function computes the power and sample size for basic testing hypothesis listed below.
+One population and variable  Z test for mean (bilateral and unilateral): pwr_z_test_1pop t-test for mean (bilateral and unilateral): pwr_t_test_1pop Chi-squared for variance (bilateral and unilateral): pwr_sigma_1pop Proportion for test: pwr_prop_1pop  Two populations and variables  Z test for difference of means (bilateral and unilateral) with known variance: pwr_z_test_2pop F test to compare variance of two normal population: pwr_sigma_2pop t test for difference of means (bilateral and unilateral) with unknown variance and differences: pwr_t_test_2pop_hetero t test for difference of means (bilateral and unilateral) with unknown and equals: pwr_t_test_2pop_homo Paired t test: pwr_paired_t_test Test for proportions (bilateral and unilateral) in samples with more than 40 observations: pwr_prop_2pop  Checking association  Chi-sqaured to check association between two qualitative variables: pwr_chisq_test_association (implementation of power of test and sample size) Test for Pearson&amp;rsquo;s correlation using Fisher&amp;rsquo;s Z tranformation: z_fisher_test (implementation of test) and pwr_z_fisher_test (implementation of power of test and sample size)  Anova  Unbalanced ANOVA: pwr_anova_balanced (power of test and sample size) Balanced ANOVA: pwr_anova_unbalanced (only power of test)  Installation To install this package in R, it can be used the R package devtools:</description>
+    </item>
+    
+    <item>
+      <title>GeoFourierFDA: Pacote no R com métodos de Krigagem no usando Séries de Fourier (en)</title>
+      <link>https://gilberto-sassi.github.io/projetos/geofourierfda/</link>
+      <pubDate>Fri, 31 Jul 2020 14:34:08 -0300</pubDate>
+      
+      <guid>https://gilberto-sassi.github.io/projetos/geofourierfda/</guid>
+      <description>In this package, we have observed n curves χs1(t), ⋯, χsn(t) at locations s1, ⋯, sn in a specified region, where si = (θi, ηi), *i* = 1, …, n, θi is the latitute and ηi is the longitude. The aim is to estimate the unobserved curve χs0(t) where s0 ∉ {s1, ⋯sn}. The ideia proposed by Giraldo, Delicado, and Mateu (2011) was uncomplicated: the curve χs0(t) at s0 ∉ {s1, ⋯sn} is a linear combination of all the curves χs1(t), ⋯, χsn(t), i.</description>
+    </item>
+    
+  </channel>
+</rss>

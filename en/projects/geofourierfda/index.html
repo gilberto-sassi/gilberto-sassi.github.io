@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Gilberto Pereira Sassi">
+    <meta name="description" content="In this package, we have observed n curves χs1(t), ⋯, χsn(t) at locations s1, ⋯, sn in a specified region, where si = (θi, ηi), *i* = 1, …, n, θi is the latitute and ηi is the longitude. The aim is to estimate the unobserved curve χs0(t) where s0 ∉ {s1, ⋯sn}. The ideia proposed by Giraldo, Delicado, and Mateu (2011) was uncomplicated: the curve χs0(t) at s0 ∉ {s1, ⋯sn} is a linear combination of all the curves χs1(t), ⋯, χsn(t), i.">
+    <meta name="keywords" content="personal, blog, teacher, R, pytho, Rmarkdown ">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GeoFourierFDA: R package for Kriging Methods to Function-valued Data"/>
+<meta name="twitter:description" content="In this package, we have observed n curves χs1(t), ⋯, χsn(t) at locations s1, ⋯, sn in a specified region, where si = (θi, ηi), *i* = 1, …, n, θi is the latitute and ηi is the longitude. The aim is to estimate the unobserved curve χs0(t) where s0 ∉ {s1, ⋯sn}. The ideia proposed by Giraldo, Delicado, and Mateu (2011) was uncomplicated: the curve χs0(t) at s0 ∉ {s1, ⋯sn} is a linear combination of all the curves χs1(t), ⋯, χsn(t), i."/>
+
+    <meta property="og:title" content="GeoFourierFDA: R package for Kriging Methods to Function-valued Data" />
+<meta property="og:description" content="In this package, we have observed n curves χs1(t), ⋯, χsn(t) at locations s1, ⋯, sn in a specified region, where si = (θi, ηi), *i* = 1, …, n, θi is the latitute and ηi is the longitude. The aim is to estimate the unobserved curve χs0(t) where s0 ∉ {s1, ⋯sn}. The ideia proposed by Giraldo, Delicado, and Mateu (2011) was uncomplicated: the curve χs0(t) at s0 ∉ {s1, ⋯sn} is a linear combination of all the curves χs1(t), ⋯, χsn(t), i." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gilberto-sassi.github.io/en/projects/geofourierfda/" />
+<meta property="article:published_time" content="2020-07-31T14:34:08-03:00" />
+<meta property="article:modified_time" content="2020-07-31T14:34:08-03:00" />
+
+
+    
+      <base href="https://gilberto-sassi.github.io/en/projects/geofourierfda/">
+    
+    <title>
+  GeoFourierFDA: R package for Kriging Methods to Function-valued Data · Gilberto Pereira Sassi
+</title>
+
+    
+      <link rel="canonical" href="https://gilberto-sassi.github.io/en/projects/geofourierfda/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://gilberto-sassi.github.io/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://gilberto-sassi.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://gilberto-sassi.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.57.2" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://gilberto-sassi.github.io/en">
+      Gilberto Pereira Sassi
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gilberto-sassi.github.io/en/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gilberto-sassi.github.io/en/announcements/">Announcements</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gilberto-sassi.github.io/en/short-code/">Short Courses</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://gilberto-sassi.github.io/en/projects/">Projects</a>
+          </li>
+        
+      
+      
+        
+        
+        
+          
+        
+          
+            
+              <li class="navigation-item menu-separator">
+                <span>|</span>
+              </li>
+              
+            
+            <li class="navigation-item">
+              <a href="https://gilberto-sassi.github.io/">Português</a>
+            </li>
+          
+        
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>GeoFourierFDA: R package for Kriging Methods to Function-valued Data</h1>
+    </header>
+
+    
+
+<p>In this package, we have observed <em>n</em> curves
+<em>χ</em><sub><strong>s</strong><sub>1</sub></sub>(<em>t</em>), ⋯, <em>χ</em><sub><strong>s</strong><sub><em>n</em></sub></sub>(<em>t</em>)
+at locations <strong>s</strong><sub>1</sub>, ⋯, <strong>s</strong><sub><em>n</em></sub> in a specified
+region, where
+<strong>s</strong><sub><em>i</em></sub> = (<em>θ</em><sub><em>i</em></sub>, <em>η</em><sub><em>i</em></sub>), *i* = 1, …, <em>n</em>,
+<em>θ</em><sub><em>i</em></sub> is the latitute and <em>η</em><sub><em>i</em></sub> is the
+longitude. The aim is to estimate the unobserved curve
+<em>χ</em><sub><strong>s</strong><sub>0</sub></sub>(<em>t</em>) where
+<strong>s</strong><sub>0</sub> ∉ {<strong>s</strong><sub>1</sub>, ⋯<strong>s</strong><sub><em>n</em></sub>}. The ideia
+proposed by Giraldo, Delicado, and Mateu (2011) was uncomplicated: the
+curve <em>χ</em><sub><strong>s</strong><sub>0</sub></sub>(<em>t</em>) at
+<strong>s</strong><sub>0</sub> ∉ {<strong>s</strong><sub>1</sub>, ⋯<strong>s</strong><sub><em>n</em></sub>} is a
+linear combination of all the curves
+<em>χ</em><sub><strong>s</strong><sub>1</sub></sub>(<em>t</em>), ⋯, <em>χ</em><sub><strong>s</strong><sub><em>n</em></sub></sub>(<em>t</em>),
+i.e., <em>χ</em><sub><strong>s</strong><sub>0</sub></sub>(<em>t</em>)=
+<em>λ</em><sub>1</sub><em>χ</em><sub><strong>s</strong><sub>1</sub></sub>(<em>t</em>) + ⋯ + <em>λ</em><sub>1</sub><em>χ</em><sub><strong>s</strong><sub><em>n</em></sub></sub>(<em>t</em>),
+where <em>λ</em><sub>1</sub>, ⋯, <em>λ</em><sub><em>n</em></sub> is the solution of the
+linear system</p>
+
+<p><img src="https://gilberto-sassi.github.io/files/geoFourierFDA/linear_system.png" alt="Sistema Linear" /></p>
+
+<p>where <em>μ</em> is a constant and the function
+<em>γ</em>(<em>h</em>) = ∫<em>γ</em>(<em>h</em>; <em>t</em>)*d*<em>t</em>, (1)
+is called trace-variogram and <em>γ</em>(<em>h</em>, <em>t</em>) is the semivariogram. More
+precisely, for each <em>t</em> a weakly stationary and isotropic spatial
+process is assumed and the semivariogram can be computed. Furthermore,
+the trace-variogram is an integration of <em>γ</em>(<em>h</em>; <em>t</em>) over <em>t</em>.
+Usually, the integral in the equation (1) is approximated using an
+modified version of empirical semivariogram (see Giraldo, Delicado, and
+Mateu 2011 for more details). In this paper, we propose an approach
+using Legendre-Gauss quadrature, which is intuitive since it explicitly
+uses the definition of trace-variogram.</p>
+
+<h1 id="installing">Installing</h1>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">devtools::install_github(&#39;gilberto-sassi/geoFourierFDA&#39;)</pre></div>
+<h1 id="how-to-interpolate-a-curve-at-an-unmonitored-location">How to interpolate a curve at an unmonitored location</h1>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#007f7f"># interpolating curve at Halifax using all remaining curves in the functional dataset</span>
+data(canada)
+
+<span style="color:#007f7f"># removing the data from Halifax and getting its coordinate</span>
+l_item &lt;- <span style="color:#ff0;font-weight:bold">2</span>
+log_item &lt;- !(<span style="color:#ff0;font-weight:bold">1</span> : <span style="color:#fff;font-weight:bold">ncol</span>(m_data) %in% l_item)
+y_true &lt;- m_data[, l_item]
+t_true &lt;- <span style="color:#fff;font-weight:bold">seq</span>(from = -<span style="color:#fff;font-weight:bold">pi</span>, to = <span style="color:#fff;font-weight:bold">pi</span>, length.out = <span style="color:#fff;font-weight:bold">nrow</span>(m_data))
+new_coord &lt;- m_coord[l_item, ] %&gt;% <span style="color:#fff;font-weight:bold">matrix</span>(ncol = <span style="color:#ff0;font-weight:bold">2</span>)
+m_data &lt;- m_data[,log_item]
+m_coord &lt;- m_coord[log_item, ]
+
+<span style="color:#007f7f"># Fourier series polynomial</span>
+m &lt;- <span style="color:#fff;font-weight:bold">ceiling</span>(<span style="color:#ff0;font-weight:bold">1</span> + <span style="color:#fff;font-weight:bold">log2</span>(<span style="color:#fff;font-weight:bold">nrow</span>(m_data))) <span style="color:#007f7f"># Sturge&#39;s rule</span>
+
+<span style="color:#007f7f"># Estimating the curve at halifax using all remained curves</span>
+y_s0_mine &lt;- geo_fda(m_data, m_coord, new_coord,
+                     t = t_true, m = m)</code></pre></div>
+<h1 id="coefficients-of-smoothing-using-fourier-series-polynomial">Coefficients of smoothing using Fourier series polynomial</h1>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#007f7f"># Coefficients of smoothing using Fourier series polynomial</span>
+<span style="color:#007f7f"># Coefficients of smoothing at Halifax</span>
+data(canada)
+
+<span style="color:#007f7f"># the data from Halifax and getting</span>
+l_item &lt;- <span style="color:#ff0;font-weight:bold">2</span>
+log_item &lt;- !(<span style="color:#ff0;font-weight:bold">1</span> : <span style="color:#fff;font-weight:bold">ncol</span>(m_data) %in% l_item)
+f &lt;- m_data[, l_item]
+
+<span style="color:#007f7f"># order of Fourier series polynomial</span>
+m &lt;- (<span style="color:#ff0;font-weight:bold">1</span> + <span style="color:#fff;font-weight:bold">length</span>(f) %&gt;% <span style="color:#fff;font-weight:bold">log2</span>()) %&gt;% <span style="color:#fff;font-weight:bold">ceiling</span>() 
+
+coefs &lt;- coef_fourier(f, m)</code></pre></div>
+<h1 id="smoothed-curve-using-fourier-series">Smoothed curve using Fourier series</h1>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#007f7f"># Coefficients of smoothing using Fourier series polynomial</span>
+<span style="color:#007f7f"># Coefficients of smoothing at Halifax</span>
+data(canada)
+
+<span style="color:#007f7f"># the data from Halifax and getting</span>
+l_item &lt;- <span style="color:#ff0;font-weight:bold">2</span>
+log_item &lt;- !(<span style="color:#ff0;font-weight:bold">1</span> : <span style="color:#fff;font-weight:bold">ncol</span>(m_data) %in% l_item)
+y &lt;- m_data[, l_item]
+
+<span style="color:#007f7f"># order of Fourier series polynomial</span>
+m &lt;- (<span style="color:#ff0;font-weight:bold">1</span> + <span style="color:#fff;font-weight:bold">length</span>(f) %&gt;% <span style="color:#fff;font-weight:bold">log2</span>()) %&gt;% <span style="color:#fff;font-weight:bold">ceiling</span>() 
+
+<span style="color:#007f7f"># coefficients of Fourier series polynomial</span>
+coefs &lt;- coef_fourier(f, m)
+
+<span style="color:#007f7f"># points to evaluate curve at interval [-pi, pi]</span>
+x &lt;- <span style="color:#fff;font-weight:bold">seq</span>(from = -<span style="color:#fff;font-weight:bold">pi</span>, to = <span style="color:#fff;font-weight:bold">pi</span>, by = <span style="color:#ff0;font-weight:bold">0.01</span>)
+
+<span style="color:#007f7f"># smoothed curve at some points</span>
+y_est &lt;- fourier_b(coefs, x)</code></pre></div>
+<h1 id="installation">Installation</h1>
+
+<p>To install this package in R, it can be used the R package <code>devtools</code>:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">devtools::install_github(<span style="color:#0ff;font-weight:bold">&#39;gilberto-sassi/geoFourierFDA&#39;</span>)</code></pre></div>
+<h1 id="referências">Referências</h1>
+
+<p>Giraldo, R, P Delicado, and J Mateu. 2011. “Ordinary Kriging for
+Function-Valued Spatial Data.” <em>Environmental and Ecological Statistics</em>
+18 (3): 411–26.</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Short codes on Gilberto Pereira Sassi</title>
+    <link>https://gilberto-sassi.github.io/en/short-code/</link>
+    <description>Recent content in Short codes on Gilberto Pereira Sassi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 31 Jul 2020 14:19:11 -0300</lastBuildDate>
+    
+	<atom:link href="https://gilberto-sassi.github.io/en/short-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to R using tidyverse</title>
+      <link>https://gilberto-sassi.github.io/en/short-code/curso-r-tidyverse/</link>
+      <pubDate>Fri, 31 Jul 2020 14:19:11 -0300</pubDate>
+      
+      <guid>https://gilberto-sassi.github.io/en/short-code/curso-r-tidyverse/</guid>
+      <description>This is a introductory course where we introductory statistics and an introduction to R programming are presented. All slides are in portuguese, but I think it is possible to understand it through the R code. All the data used in this course are from R packages and/or available in the web.  Slides Aula 1 Aula 2 Aula 3 Aula 4
+Conjunto de dados dados.xlsx iris.csv iris.txt</description>
+    </item>
+    
+  </channel>
+</rss>

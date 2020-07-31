@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/</loc>
+    <lastmod>2020-07-31T14:39:55-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gilberto-sassi.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://gilberto-sassi.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/tags/pacotes-r/</loc>
+    <lastmod>2020-07-31T14:39:55-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gilberto-sassi.github.io/en/tags/pacotes-r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://gilberto-sassi.github.io/tags/pacotes-r/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/projetos/power/</loc>
+    <lastmod>2020-07-31T14:39:55-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/projetos/</loc>
+    <lastmod>2020-07-31T14:39:55-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/tags/</loc>
+    <lastmod>2020-07-31T14:39:55-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gilberto-sassi.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://gilberto-sassi.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/projetos/geofourierfda/</loc>
+    <lastmod>2020-07-31T14:34:08-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/minicursos/curso-r-tidyverse/</loc>
+    <lastmod>2020-07-31T14:19:11-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/minicursos/</loc>
+    <lastmod>2020-07-31T14:19:11-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/disciplinas/</loc>
+    <lastmod>2020-07-31T14:06:29-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/disciplinas/matd03-2020-1sem/</loc>
+    <lastmod>2020-07-31T14:06:29-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/disciplinas/mat236-2020-1sem/</loc>
+    <lastmod>2020-07-31T13:24:44-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/avisos/</loc>
+    <lastmod>2020-07-31T13:20:38-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/avisos/covid-19/</loc>
+    <lastmod>2020-07-31T13:20:38-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gilberto-sassi.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://gilberto-sassi.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gilberto-sassi.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://gilberto-sassi.github.io/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gilberto-sassi.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gilberto-sassi.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://gilberto-sassi.github.io/about/"
+                />
+  </url>
+  
+</urlset>

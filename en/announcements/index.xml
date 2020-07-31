@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcements on Gilberto Pereira Sassi</title>
+    <link>https://gilberto-sassi.github.io/en/announcements/</link>
+    <description>Recent content in Announcements on Gilberto Pereira Sassi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 31 Jul 2020 13:20:38 -0300</lastBuildDate>
+    
+	<atom:link href="https://gilberto-sassi.github.io/en/announcements/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>All classes are suspended due COVID-19</title>
+      <link>https://gilberto-sassi.github.io/en/announcements/covid-19/</link>
+      <pubDate>Fri, 31 Jul 2020 13:20:38 -0300</pubDate>
+      
+      <guid>https://gilberto-sassi.github.io/en/announcements/covid-19/</guid>
+      <description>Due pandemic of COVID-19, all class and presencial activities are suspended until further notice.</description>
+    </item>
+    
+  </channel>
+</rss>

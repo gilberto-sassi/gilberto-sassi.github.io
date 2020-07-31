@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Avisos on Gilberto Pereira Sassi</title>
+    <link>https://gilberto-sassi.github.io/avisos/</link>
+    <description>Recent content in Avisos on Gilberto Pereira Sassi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 31 Jul 2020 13:20:38 -0300</lastBuildDate>
+    
+	<atom:link href="https://gilberto-sassi.github.io/avisos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cancelamento do Calendário Acadêmico Devido ao Surto de COVID-19</title>
+      <link>https://gilberto-sassi.github.io/avisos/covid-19/</link>
+      <pubDate>Fri, 31 Jul 2020 13:20:38 -0300</pubDate>
+      
+      <guid>https://gilberto-sassi.github.io/avisos/covid-19/</guid>
+      <description>Devido a decisão do Conselho Universitário da UFBA do dia 18/03/2020, e seguindo as recomendações da Organização Mundial da Saúde, do Ministério da Saúde e da Secretária Estatudal de Saúde do Governo Estadual da Bahia, informo que todas as atividades acadêmicas e o calendário acadêmico estão suspensos por tempo indeterminado devido a pandemia global do vírus COVID-19. Ou seja, as aulas para as seguintes turmas
+ Turma 04 (08h50min até 10h30min) de MAT236 (Métodos Estatísticos); Turma 05 (10h40min até 12h30min) de MAT236 (Método Estatísticos); Turma 01 (13h55min até 16h55min) de MATD03 (Estatística Aplicada à Saúde).</description>
+    </item>
+    
+  </channel>
+</rss>
