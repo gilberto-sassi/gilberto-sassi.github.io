@@ -3,4 +3,4 @@ Página pessoal.
 
 
 Estou direcionando minha página para o
-https://gilberto-pereira-sassi.netlify.io
+https://gilberto-sassi.netlify.io
